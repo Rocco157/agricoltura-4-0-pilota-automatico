@@ -144,7 +144,7 @@ python src/viz/genera_grafico.py
 
 | Modulo | Algoritmo | Descrizione |
 |--------|-----------|-------------|
-| `decomposizione_area.py` | Decomposizione trapezoidale | Suddivide l’area di lavoro in sotto-celle convexe tramite eventi di scansione |
+| `decomposizione_area.py` | Decomposizione trapezoidale | Suddivide l’area di lavoro in sotto-celle convesse tramite eventi di scansione |
 | `genera_capezzagne_bordocampo.py` | HeadlandCalculator | Calcola le strisce interne di bordo per le manovre di fine campo |
 | `genera_capezzagne_ostacoli.py` | Capezzagne sugli ostacoli | Genera buffer concentrici attorno agli ostacoli statici |
 | `genera_traiettoria_sottocella.py` | Boustrophedon + Bézier | Genera passaggi paralleli con curve di svolta morbide, rispettando il raggio di sterzata del veicolo |
